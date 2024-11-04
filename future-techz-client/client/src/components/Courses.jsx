@@ -4,11 +4,11 @@ import CourseItem from './CourseItem';
 const Courses = () => {
     // Sample Data
 const items = [
-    { id: 1, title: "Hoạ sỹ Đỗ Khải", image: "https://www.codekids.org.uk/wp-content/uploads/2020/11/VEX-VR.jpg" },
-    { id: 2, title: "Hoạ sỹ Đỗ Khải", image: "https://www.codekids.org.uk/wp-content/uploads/2020/05/microbit-technologies.jpg" },
-    { id: 3, title: "Hoạ sỹ Đỗ Khải", image: "https://www.codekids.org.uk/wp-content/uploads/2020/03/mobile-app-dev-700x450-1.jpg" },
-    { id: 4, title: "Hoạ sỹ Đỗ Khải", image: "https://www.codekids.org.uk/wp-content/uploads/2019/11/roblox-coding.jpg" }, 
-    { id: 5, title: "Hoạ sỹ Đỗ Khải", image: "    https://www.codekids.org.uk/wp-content/uploads/2020/03/ev3-mindstorms.jpg" }, 
+    { id: 1, title: "Robotics with VEXcode (Virtual)", image: "https://www.codekids.org.uk/wp-content/uploads/2020/11/VEX-VR.jpg" },
+    { id: 2, title: "Coding with Microbit", image: "https://www.codekids.org.uk/wp-content/uploads/2020/05/microbit-technologies.jpg" },
+    { id: 3, title: "App Development", image: "https://www.codekids.org.uk/wp-content/uploads/2020/03/mobile-app-dev-700x450-1.jpg" },
+    { id: 4, title: "Lego Robotics Mindstorm", image: "https://www.codekids.org.uk/wp-content/uploads/2019/11/roblox-coding.jpg" }, 
+    { id: 5, title: "Virtual reality coding", image: "    https://www.codekids.org.uk/wp-content/uploads/2020/03/ev3-mindstorms.jpg" }, 
 
 
 ];
@@ -26,7 +26,7 @@ const items = [
 
                 </div>
             </div>
-            <div className='w-full h-auto'>
+            <div className='flex flex-col items-center justify-center w-[80%] h-auto'>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
                     {items.map(item => (

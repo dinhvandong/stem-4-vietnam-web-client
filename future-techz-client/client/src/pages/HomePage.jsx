@@ -3,6 +3,8 @@ import Header from '../components/Header'
 import imagesData from './images.json'; // Import your JSON image data
 import ImageSlider from '../components/ImageSlider';
 import Courses from '../components/Courses';
+import Footer from '../components/Footer';
+import JoinNow from '../components/JoinNow';
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
 
         </div>
         <Courses/>
+        <JoinNow/>
+        <Footer/>
 
 
 
