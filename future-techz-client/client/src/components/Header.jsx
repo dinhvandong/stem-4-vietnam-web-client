@@ -1,7 +1,24 @@
 import React from 'react'
 import { MdMenu } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate();
+    function gotoCourses(){
+        navigate("/courses/")
+    }
+    function gotoHome(){
+        navigate("/")
+    }
+    function gotoContract(){
+        navigate("/contract")
+    }
+    function gotoTech(){
+        navigate("/tech")
+    }
+    function gotoSchool(){
+        navigate("/school")
+    }
     return (
         <div className='bg-bg_color w-full h-auto md:p-2 md:h-[80px] flex  flex-col md:flex-row justify-between items-center'>
             <div className='flex w-full items-center flex-col font-bold md:font-thin md:flex-row  md:m-5 md:p-5'>
@@ -10,26 +27,38 @@ const Header = () => {
                     <MdMenu className='block md:hidden' size={24} />
 
                 </div>
-                <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div 
+                onClick={gotoHome}
+                className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>HOME</p>
                 </div>
-                <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div
+                onClick={gotoCourses}  
+                className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>COURSES</p>
                 </div>
-                <div className=' hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div 
+                onClick={gotoTech}
+                className=' hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>TECHNOLOGIES</p>
                 </div>
-                <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div
+                onClick={gotoSchool} 
+                className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>SCHOOLS</p>
                 </div>
                 <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>LOCATIONS</p>
                 </div>
-                <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div
+                onClick={gotoContract} 
+                className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>CONTACT</p>
                 </div>
                 <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[20%] flex  justify-start md:justify-center'>
-                    <button className='bg-transparent md:bg-yellow-400  md:px-5 md:py-2' >BOOK NOW</button>
+                    <button 
+                    onClick={gotoCourses}
+                    className='bg-transparent md:bg-yellow-400  md:px-5 md:py-2' >BOOK NOW</button>
                 </div>
 
             </div>

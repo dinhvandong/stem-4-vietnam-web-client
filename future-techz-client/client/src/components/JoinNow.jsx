@@ -64,7 +64,7 @@ const JoinNow = () => {
                     {/* <input className='w-full px-5 py-3' name='region' placeholder='Region' /> */}
                 </div>
                 <div className='w-full md:w-1/4 ml-5 mt-5'>
-                    <button className='bg-yellow-400 px-5 py-3 text-black font-thin' >JOIN NOW</button>
+                    <button className='bg-yellow-400 px-5 py-3 text-black font-thin hover:bg-[#333333] hover:text-white' >JOIN NOW</button>
                 </div>
 
             </div>

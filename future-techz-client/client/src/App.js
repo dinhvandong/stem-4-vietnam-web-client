@@ -1,6 +1,10 @@
 import './App.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+import CoursesPage from './pages/CoursesPage';
+import ContractPage from './pages/ContractPage';
+import TechPage from './pages/TechPage';
+import SchoolPage from './pages/SchoolPage';
 
 function App() {
   return (
@@ -65,6 +69,12 @@ function App() {
         <Route path="/select-your-cabin/non-refundable" element={<SelectCabinNonRefundPage />} />
 
         <Route path="/ambassador-suite" element={<AmbassadorSuitePage />} />  */}
+
+        <Route path='/courses/' element={<CoursesPage/>}/>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/contract' element={<ContractPage/>}/>
+        <Route path='/tech' element={<TechPage/>}/>
+        <Route path='/school' element={<SchoolPage/>}/>
 
 
 
