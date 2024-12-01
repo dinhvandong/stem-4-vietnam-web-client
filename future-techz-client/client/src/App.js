@@ -5,6 +5,7 @@ import CoursesPage from './pages/CoursesPage';
 import ContractPage from './pages/ContractPage';
 import TechPage from './pages/TechPage';
 import SchoolPage from './pages/SchoolPage';
+import LocationPage from './pages/LocationPage';
 
 function App() {
   return (
@@ -75,6 +76,7 @@ function App() {
         <Route path='/contract' element={<ContractPage/>}/>
         <Route path='/tech' element={<TechPage/>}/>
         <Route path='/school' element={<SchoolPage/>}/>
+        <Route path='/location' element={<LocationPage/>}/>
 
 
 

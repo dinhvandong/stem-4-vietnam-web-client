@@ -1,0 +1,217 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "All",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Hibbing_High_School_2014.jpg",
+        "https://www.sevenoaks.kent.sch.uk/i/photos/Our-School/Front_of_school.jpg",
+        "https://vntalent.edu.vn/wp-content/uploads/2021/07/2-21.jpg",
+        "https://www.independentschoolparent.com/directory/wp-content/uploads/2023/09/Blackheath-High-Senior-School-front.jpg",
+        "https://www.marshandparsons.co.uk/wp-content/uploads/2021/08/MAP_Islington_Angel-3.jpg",
+        "https://media.licdn.com/dms/image/v2/C5612AQEdEyejQncv4Q/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520155788699?e=2147483647&v=beta&t=9NTOkIQWE9ZQjXp9nMpY4HCoN7cJqE3Sy3l0u4TZEPw",
+        "https://www.studentinfo.net/img/news/F6392.jpg",
+        "https://media.stridetreglown.com/wp-content/uploads/2021/04/08165054/Cobham-Free-School_LowRes_47-1185x790.jpg",
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/Malthouse_Theatre_and_Square.jpg",
+        "https://www.caterhamprep.co.uk/wp-content/uploads/2020/10/Drone-1800x630.jpg"
+      ],
+      "descriptions": [
+        "Dulwich College Junior School, Dulwich",
+        "Sevenoaks Primary School, Sevenoaks",
+        "King's College School, Wimbledon",
+        "Blackheth High Senior School, Blackheath",
+        "Islington, London",
+        "Highgate Primary School, Highgate",
+        "Croydon High School, Croydon",
+        "Cobham Free School, Surrey",
+        "Malthouse Theatre, Canterbury",
+        "Caterham Prep School, Caterham"
+      ],
+      "locate": [
+        "Dulwich College Junior School, Dulwich",
+        "Sevenoaks Primary School, Sevenoaks",
+        "King's College School, Wimbledon",
+        "Blackheth High Senior School, Blackheath",
+        "Islington, London",
+        "Highgate Primary School, Highgate",
+        "Croydon High School, Croydon",
+        "Cobham Free School, Surrey",
+        "Malthouse Theatre, Canterbury",
+        "Caterham Prep School, Caterham"
+      ],
+      "locate2": [
+        "Dulwich, London",
+        "Sevenoaks",
+        "Wimbledon",
+        "Blackheath, Greenwich, London",
+        "Islington, London",
+        "Highgate",
+        "Surrey",
+        "Cobham, Surrey",
+        "Canterbury",
+        "Caterham, Surrey"
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Blackheath",
+      "images": [
+        "https://www.independentschoolparent.com/directory/wp-content/uploads/2023/09/Blackheath-High-Senior-School-front.jpg"
+      ],
+      "descriptions": [
+        "Blackheth High Senior School, Blackheath"
+      ],
+      "locate": [
+        "Blackheth High Senior School, Blackheath"
+      ],
+      "locate2": [
+        "Blackheath, Greenwich, London"
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Canterbury",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/0/02/Malthouse_Theatre_and_Square.jpg"
+      ],
+      "descriptions": [
+        "Malthouse Theatre, Canterbury"
+      ],
+      "locate": [
+        "Malthouse Theatre, Canterbury"
+      ],
+      "locate2": [
+        "Canterbury"
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Dulwich",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/3/39/Hibbing_High_School_2014.jpg"
+      ],
+      "descriptions": [
+        "Dulwich College Junior School, Dulwich"
+      ],
+      "locate": [
+        "Dulwich College Junior School, Dulwich"
+      ],
+      "locate2": [
+        "Canterbury"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Greenwich",
+      "images": [
+        "https://www.independentschoolparent.com/directory/wp-content/uploads/2023/09/Blackheath-High-Senior-School-front.jpg"
+      ],
+      "descriptions": [
+        "Blackheth High Senior School, Blackheath"
+      ],
+      "locate": [
+        "Blackheth High Senior School, Blackheath"
+      ],
+      "locate2": [
+        "Blackheath, Greenwich, London"
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "Highgate",
+      "images": [
+        "https://media.licdn.com/dms/image/v2/C5612AQEdEyejQncv4Q/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520155788699?e=2147483647&v=beta&t=9NTOkIQWE9ZQjXp9nMpY4HCoN7cJqE3Sy3l0u4TZEPw"
+      ],
+      "descriptions": [
+        "Highgate Primary School, Highgate"
+      ],
+      "locate": [
+        "Highgate Primary School, Highgate"
+      ],
+      "locate2": [
+        "Highgate"
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "Islington",
+      "images": [
+        "https://www.marshandparsons.co.uk/wp-content/uploads/2021/08/MAP_Islington_Angel-3.jpg"
+      ],
+      "descriptions": [
+        "Islington, London"
+      ],
+      "locate": [
+        "Islington, London"
+      ],
+      "locate2": [
+        "Islington, London"
+      ]
+    },
+
+    {
+      "id": 8,
+      "name": "Sevenoaks",
+      "images": [
+        "https://www.sevenoaks.kent.sch.uk/i/photos/Our-School/Front_of_school.jpg"
+      ],
+      "descriptions": [
+        "Sevenoaks Primary School, Sevenoaks"
+      ],
+      "locate": [
+        "Sevenoaks Primary School, Sevenoaks"
+      ],
+      "locate2": [
+        "Sevenoaks"
+      ]
+    },
+
+    {
+      "id": 9,
+      "name": "Surrey",
+      "images": [
+        "https://media.stridetreglown.com/wp-content/uploads/2021/04/08165054/Cobham-Free-School_LowRes_47-1185x790.jpg",
+        "https://www.studentinfo.net/img/news/F6392.jpg",
+        "https://www.caterhamprep.co.uk/wp-content/uploads/2020/10/Drone-1800x630.jpg"
+      ],
+      "descriptions": [
+        "Cobham Free School, Surrey",
+        "Croydon High School, Croydon",
+        "Caterham Prep School, Caterham"
+      ],
+      "locate": [
+        "Cobham Free School, Surrey",
+        "Croydon High School, Croydon",
+        "Caterham Prep School, Caterham"
+      ],
+      "locate2": [
+        "Cobham, Surrey",
+        "Surrey",
+        "Caterham, Surrey"
+      ]
+    },
+
+    {
+      "id": 10,
+      "name": "Wimbledom",
+      "images": [
+        "https://vntalent.edu.vn/wp-content/uploads/2021/07/2-21.jpg"
+      ],
+      "descriptions": [
+        "King's College School, Wimbledon"
+      ],
+      "locate": [
+        "King's College School, Wimbledon"
+      ],
+      "locate2": [
+        "Wimblebom"
+      ]
+    }
+  ]
+}

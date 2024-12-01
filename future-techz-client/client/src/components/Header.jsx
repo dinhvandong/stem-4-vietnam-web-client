@@ -19,6 +19,9 @@ const Header = () => {
     function gotoSchool(){
         navigate("/school")
     }
+    function gotoLocation(){
+        navigate("/location")
+    }
     return (
         <div className='bg-bg_color w-full h-auto md:p-2 md:h-[80px] flex  flex-col md:flex-row justify-between items-center'>
             <div className='flex w-full items-center flex-col font-bold md:font-thin md:flex-row  md:m-5 md:p-5'>
@@ -47,7 +50,9 @@ const Header = () => {
                 className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>SCHOOLS</p>
                 </div>
-                <div className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
+                <div 
+                onClick={gotoLocation}
+                className='hover:cursor-pointer h-full w-full px-5 py-3 hover:underline md:hover:no-underline hover:bg-yellow-400 md:w-[10%] flex  justify-start md:justify-center'>
                     <p>LOCATIONS</p>
                 </div>
                 <div
